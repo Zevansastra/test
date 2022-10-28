@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!--tag html 5-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvanstra</title>  <!--Tag untuk menambahkan judul halaman website-->
+    <link rel="stylesheet" href="css/style.css">  <!-- fungsi untuk menghubungkan antara html dan css-->
+</head>
+<body>
+    <table align="center"> <!--tag table untuk menambahkan table dalam membuat form berisi nama, jenis kelamin, hobi, dan jurusan-->
+        <form>
+            <tr><th>SILAHKAN INPUT NAMA ANDA</th></tr> <br>
+            <tr>
+                <br>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text"></td> <!-- input type text untuk menambah atau menginputkan nama-->
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td> <!--Input type radio berfungsi untuk memilih Option laki - laki atau perempuan -->
+                    <input type="radio" name="jenis"> Laki - Laki
+                    <input type="radio" name="Jenis"> perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td> 
+                <td>:</td>
+                <td>
+                    <input type= "checkbox"> Musik <!--Input type radio berfungsi untuk memilih Option musik atau main game -->
+                    <input type="checkbox"> main game
+                </td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>:</td>
+                <td><select>
+                    <option>Sistem Informasi</option> <!--Tag option untuk memilih opsi antara data yang disediakan-->
+                    <option>Informatika</option>
+                    <option>desain komunikasi Visual</option>
+                </select></td>
+            </tr>
+        </form>
+    </table>
+    <br><br>
+    <center><a class="tombol" href="biodata.html">Submit</a></center> <!--button submit-->
+</body>
+</html>
